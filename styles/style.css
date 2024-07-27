@@ -242,7 +242,7 @@ text-color{
     margin-top: 80px;
     margin-bottom: 100px;
     background-color: #222222;
-    flex-direction: roe;
+    flex-direction: row;
     text-align:justify;
     align-items:center;
     justify-content: space-around;
@@ -258,7 +258,17 @@ text-color{
    /* border: 1px solid wheat;*/
     color: bisque;
 }
+/*some calculator related style */
+.calculatur-part{
+    width: 671px;
+    height: 120px;
+   /* border:1px solid wheat;*/
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: justify;
+    color: bisque;
 
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
