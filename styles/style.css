@@ -184,7 +184,7 @@ text-color{
     display: none;
 }
 
-/* some facts related styles */
+/* some habit related styles */
 
 .bg-size{
     width: 1050px;
@@ -233,6 +233,32 @@ text-color{
     height: 180px;
     border-radius: 100px;
 }
+/* some mile easy related style*/
+.mile-easy{
+    width: 1060px;
+    height: 371px;
+   /* border: 1px solid wheat;*/
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: #222222;
+    flex-direction: roe;
+    text-align:justify;
+    align-items:center;
+    justify-content: space-around;
+}
+.run-img{
+    width: 366px;
+    height: 312px;
+    border-radius: 28px;
+}
+.mile-easy-content{
+    width: 443px;
+    height: 290px;
+   /* border: 1px solid wheat;*/
+    color: bisque;
+}
+
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
