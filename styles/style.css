@@ -97,7 +97,6 @@ text-color{
     margin-right: 30px;
     
     color: #ffff;
-    justify-content:
     
 
 }
@@ -122,6 +121,9 @@ text-color{
     color: white;
     font-size: 4rem;
     font-weight: 900;
+}
+.banner-img{
+     width: 100%;
 }
 .banner-description{
     color: white;
@@ -178,3 +180,75 @@ text-color{
     top: -320px;
     left:-110px;
 }
+.ham-burger {
+    display: none;
+}
+
+/* some facts related styles */
+
+.bg-size{
+    width: 1050px;
+    height:500px;
+   /* border:1px solid wheat;*/
+    margin:0 auto;
+    margin-top:-160px;
+}
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+
+}
+.fact-content{
+    max-width:570px;
+    height:120px;
+    color:wheat;
+    margin: 0 auto;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.fact-card{
+   /* border: 1px solid white;*/
+    width: 231px;
+    height: 284px;
+    border-radius: 8px;
+    color: beige;
+    text-align: center;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.font-text{
+    font-size: 18px;
+
+}
+.fact-icon{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .nav-links {
+        display: none;
+    }
+    .ham-burger{
+        display: block;
+    }
+ .banner{
+    flex-direction: column;
+ }
+ .navbar{
+    width:-220px;
+    height:px;
+ }
+
+}
+
