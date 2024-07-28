@@ -127,6 +127,7 @@ text-color{
 }
 .banner-description{
     color: white;
+    text-align: justify;
 }
 .banner-content{
     max-width: 520px;
@@ -264,11 +265,108 @@ text-color{
     height: 120px;
    /* border:1px solid wheat;*/
     margin: 0 auto;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     text-align: justify;
     color: bisque;
 
 }
+/* some team work related style */
+.team-work{
+    width: 1060px;
+    height: 772px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.team-work-content{
+    width: 671px;
+    height: 120px;
+   /* border: 1px solid whitesmoke;*/
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+.team-work-img{
+    width: 691px;
+    height: 630px;
+   /* border: 1px solid wheat;*/
+    margin: 0 auto;
+    background-color: #362f2f;
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+.team-img{
+    width: 197px;
+    height: 272px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius:1rem;
+    position: relative;
+
+}
+.tows{
+    border: 1px solid black;
+    background-color: none;
+    color: #ffff;
+    position:absolute;
+    top: -320px;
+}
+/* some footer related styles */
+footer{
+    width: 1440px;
+    height:489px;
+    /*border: 1px solid whitesmoke;*/
+    margin: 0 auto;
+    margin-top:1600px;
+    background-color: rgb(39, 34, 34);
+}
+.fitness-footer{
+    width: 1059px;
+    height: 249px;
+    margin: 0 auto;
+    padding:10px 15px;
+    text-align:justify;
+    margin-top: 80px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+
+
+
+}
+.main-footer{
+    width:443px;
+    height: 176px;
+    /*border:1px solid wheat;*/
+    color: wheat;
+}
+.fitness-list1 , .fitness-list2{
+    width: 181px;
+    height: 249px;
+    margin: 0 auto;
+    margin-top:60px;
+  /* border: 1px solid wheat;*/
+    color: beige;
+    list-style-type: none;
+}
+.footer-last{
+    width: 318px;
+    height: 24px;
+    /*border: 1px solid wheat;*/
+    color:whitesmoke;
+    text-align: center;
+    margin: 0 auto;
+}
+.last-div{
+    margin-top:80px;
+}
+
+
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
